@@ -1,0 +1,24 @@
+.color-example {
+    color: purple;
+    background-color: #81C9AF;
+    border: 2px solid black
+}
+.header-example {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+.list-example {
+    color: cornflowerblue;
+    list-style: circle;
+}
+.text-example {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.div-example {
+    background-color: lavender;
+    border: purple;
+}
