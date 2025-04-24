@@ -14,10 +14,23 @@
     list-style-type: square;
     color: #225522;
   }
+
+#header {
+    background-color: salmon;
+}
+#nav {
+    background-color: palevioletred;
+}
+#section {
+    background-color: pink;
+}
   
   body {
     background-color: #f1f2f4;
     background-image: url("https://i.imgur.com/ZOcLM7h.jpeg");
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
   }
   
   h1,
@@ -36,4 +49,3 @@
   figure {
     margin: 0 0 16px;
   }
-  
