@@ -1,24 +1,39 @@
 .color-example {
-    color: purple;
-    background-color: #81C9AF;
-    border: 2px solid black
-}
-.header-example {
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: purple;
-}
-.list-example {
-    color: cornflowerblue;
-    list-style: circle;
-}
-.text-example {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    text-transform: capitalize;
-    text-decoration: underline;
-}
-.div-example {
-    background-color: lavender;
-    border: purple;
-}
+    color: palegreen;
+    background: #113311;
+    border: 2px solid #338833;
+  }
+  
+  .header-example {
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    color: #113311;
+  }
+  
+  .list-example {
+    list-style-type: square;
+    color: #225522;
+  }
+  
+  body {
+    background-color: #f1f2f4;
+    background-image: url("https://i.imgur.com/ZOcLM7h.jpeg");
+  }
+  
+  h1,
+  h2 {
+    border: 2px dotted #338833;
+    margin: 0 0 16px 0;
+    padding: 0 16px;
+  }
+  
+  p {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  
+  figure {
+    margin: 0 0 16px;
+  }
+  
