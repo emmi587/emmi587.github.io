@@ -1,0 +1,35 @@
+:root {
+  --bs-link-color-rgb: 4, 129, 4;
+  --bs-link-color: rgb(4, 129, 4);
+  --bs-link-hover-color-rgb: 2, 71, 2;
+  --bs-link-hover-color: rgb(2, 71, 2);
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+.background-image-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-image-plants {
+  background-image: url("assets/plants.jpg");
+}
+
+.background-image-flowers {
+  background-image: url("assets/flowers.jpg");
+}
+
+.background-image-edible-plants {
+  background-image: url("assets/edible-plants.jpg");
+}
+
+.background-image-care {
+  background-image: url("assets/care.jpg");
+}
